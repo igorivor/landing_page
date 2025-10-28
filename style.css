@@ -17,10 +17,10 @@ body{
 #title{
     color: #F9FAF8;
     font-size: 24px;
-    padding: 20px;
+    padding: 0 100px;
 }
 .links{
-    padding: 20px;
+    padding: 0 100px;
 }
 ul{
     display: flex;
@@ -34,12 +34,45 @@ a{
     color: #E5E7EB;
 }
 .main{
+    margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 .one{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #1F2937;
+    gap: 100px;
+    padding: 100px 100px;
+}
+.text{
+    flex: 1;
+    max-width: 500px;
+}
+.image{
+    height: 200px;
+    width: 200px;
+    color: white;
+    flex: 1;
+}
+h4{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+button{
+    padding: 10px;
+    background-color: #3382F6;
+    color: white;
+    border-radius: 8px;
+    margin: 0;
 }
