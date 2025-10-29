@@ -44,7 +44,7 @@ a{
     justify-content: space-between;
     background-color: #1F2937;
     gap: 100px;
-    padding: 100px 100px;
+    padding: 100px;
 }
 .text{
     flex: 1;
@@ -63,7 +63,7 @@ h4{
     margin: 0;
     padding: 0;
 }
-p{
+#description{
     font-size: 18px;
     color: #E5E7EB;
     margin: 0;
@@ -75,4 +75,36 @@ button{
     color: white;
     border-radius: 8px;
     margin: 0;
+}
+.second{
+    display: flex;
+    align-items: center;
+    padding: 10px 100px;
+    margin: 0;
+    gap: 20px;
+}
+
+#pictures{
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    border-style: solid;
+    border-color: #3382F6;
+    border-radius: 8px;
+}
+#imgdescription{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+.box{
+    flex: 1;
+}
+.headline{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: darkblue;
 }
