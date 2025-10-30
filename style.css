@@ -69,7 +69,7 @@ h4{
     margin: 0;
     padding: 0;
 }
-button{
+#first_b{
     padding: 10px;
     background-color: #3382F6;
     color: white;
@@ -132,4 +132,52 @@ button{
     text-align: right;
     padding: 0;
     margin: 0;
+}
+.fourth{
+    display: flex;
+    padding: 50px 100px;
+    margin: 0;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.modal{
+    display: flex;
+    background-color: #3382F6;
+    border-radius: 10px;
+    height: 200px;
+    width: 1000px;
+    justify-content: space-around;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    padding: 70px 30px;
+}
+#second_b{
+    background-color: #3382F6;
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: white;
+    margin: 0;
+    border-color: white;
+}
+h3{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 5px;
+}
+#sing{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    margin: 0;
+    padding-bottom: 50px;
 }
