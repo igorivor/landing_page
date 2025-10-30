@@ -181,3 +181,15 @@ h3{
     margin: 0;
     padding-bottom: 50px;
 }
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+.c_right{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
